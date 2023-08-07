@@ -16,4 +16,4 @@ Franco Ariel Lemos
 lemosf199@gmail.com
 
 
-*[LinkedIn] (https://www.linkedin.com/in/franco-ariel-lemos-65153b280/)  
+* [LinkedIn] (https://www.linkedin.com/in/franco-ariel-lemos-65153b280/)  
