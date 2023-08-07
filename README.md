@@ -14,4 +14,6 @@ Este proyecto no necesita de instalación, solo configurar las rutas de las imag
 
 Franco Ariel Lemos
 lemosf199@gmail.com
+
+
 *[LinkedIn] (https://www.linkedin.com/in/franco-ariel-lemos-65153b280/)  
