@@ -1,0 +1,99 @@
+:root {
+  --mainColor: #FAFAFA;
+  --appleGrey: #AAAAAA;
+  --colorFooter: #2c3f50 ;
+}
+
+body {
+  background-color: var(--mainColor);
+  padding: 0;
+  margin: 0;
+  font-family: "Brygada 1918", serif;
+  font-family: "Brygada 1918", serif;
+  font-family: "Jost", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #1f1f29;
+}
+
+.container {
+  height: 100vh; /* No hace falta poner el width */
+}
+.container .header {
+  background-color: var(--appleGrey);
+}
+.container .header-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 10px;
+}
+.container .header-logos .payLogo {
+  width: 60px;
+}
+.container .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.container .main-compra {
+  height: 400px;
+  width: 65%;
+  background-color: var(--appleGrey);
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .main-compra img {
+  height: 300px;
+}
+.container .main aside {
+  text-align: center;
+  height: 400px;
+  width: 30%;
+  background-color: var(--appleGrey);
+  border-radius: 15px;
+}
+.container .main aside h3 {
+  margin-top: 100px;
+}
+.container .pagoAprovado {
+  height: 40px;
+  width: 100%;
+  background-color: #00a331;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .pagoAprovado img {
+  width: 30px;
+}
+.container .btnVolver {
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  background-color: #0081ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container footer {
+  height: 50px;
+  width: 100%;
+  background-color: var(--colorFooter);
+  margin-top: 75px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mainColor);
+}/*# sourceMappingURL=estiloPers.css.map */

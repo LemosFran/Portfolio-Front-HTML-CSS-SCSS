@@ -1,0 +1,93 @@
+/* proyecto 1 nav*/
+
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./pokemon-go-169-699061300\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+a{
+    color: rgba(190, 190, 190, 0.925);
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    background-color: #0832708a;
+    min-height: 50px; /* Tamaño de la franja azul  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+
+
+.logo
+{
+
+    display: flex;
+    align-items: center; /* No se separa si se lo agragamos al header, uno por uno hay que agreg */
+}
+
+.logo img
+{
+    height: 50px;
+    margin-right: 12px;
+}
+
+nav a 
+{
+    font-weight: 600; /* Grosor de las letras */
+    padding-right: 10px;  /* Separacion entre links */
+}
+
+
+/* Resto de tus estilos... */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #0832708a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover{
+color: #e1c056;
+}
+
+@media (max-width: 1090px)
+{
+    body
+    {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    }
+
+    header
+    {
+        flex-direction: column;
+    }
+
+    nav
+    {
+        padding: 10px, 0px;
+    }
+}
+
