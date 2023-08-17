@@ -1,10 +1,15 @@
-## Descripción
+## Descripción / Description
 
-EL PORTFOLIO: # Portfolio-Front-HTML-CSS-SCSS
+# Portfolio-Front-HTML-CSS-SCSS
 Este es mi portfolio basico en HTML-CSS-SCSS
 
 
-SE ENCUENTRA EN LA RAMA MASTER
+(En)
+# Portfolio-Front-HTML-CSS-SCSS
+This is my basic portfolio in HTML-CSS-SCSS
+
+
+SE ENCUENTRA EN LA RAMA MASTER / IT IS IN THE MASTER BRANCH
 
 
 
