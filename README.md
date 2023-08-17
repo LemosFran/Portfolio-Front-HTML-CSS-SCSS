@@ -5,8 +5,8 @@ Este es mi portfolio basico en HTML-CSS-SCSS
 
 
 
-# Portfolio-Front-HTML-CSS-SCSS
-(En) 
+# (En) Portfolio-Front-HTML-CSS-SCSS
+
 This is my basic portfolio in HTML-CSS-SCSS
 
 
