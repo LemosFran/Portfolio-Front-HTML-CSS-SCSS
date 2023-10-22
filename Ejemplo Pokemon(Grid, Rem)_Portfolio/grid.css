@@ -5,24 +5,38 @@ body {
     grid-template-columns: 1fr; /* Columnas */
     grid-template-areas:
         "header"
+        "imagen-container"
         "main"
         "footer";
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
     font-family: 'Brygada 1918', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-image: url(./pokemon-go-169-699061300\ \(1\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-   
+    /* overflow-x: hidden; */
+    
+
 }
 
+.img-container{
+    grid-area: imagen-container;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.img-container img{
+    
+    height: 80vh;
+    width: 100%;
+    
+}
 
 
 header {
     grid-area: header;
-    background-color: #083270c0;
+    background: linear-gradient(to bottom right, #012253, #09254dea);
+    border-bottom: 1px solid #33332a7e;
     color: white;
     /* padding: 1rem; */
     padding-left: 10px;
@@ -44,17 +58,17 @@ article {
     background-color: #f9f9f963;
     padding: 1rem;
     border-radius: 10px;
-border: 1px solid rgba(255, 255, 255, .25);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  background-color: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.45);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
-    padding: 150px;
-   margin-top: 2vh;
-   backdrop-filter: blur(5px);
+    padding: 20px;
+    margin-top: 2vh;
+    backdrop-filter: blur(5px);
 }
 
 section
@@ -70,7 +84,7 @@ section .card
 {
     position: relative;
     height: 60vh;
-    width: 50vw;
+    width: 60vw;
     background-color: azure;
     border-radius: 5px;
 }
@@ -80,17 +94,18 @@ section .card
 aside {
     background-color: #f0f0f0a4;
     padding: 1rem;
-border: 1px solid rgba(255, 255, 255, .25);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  background-color: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.45);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
     padding: 150px;
-   margin-top: 2vh;
-   backdrop-filter: blur(5px);
+    margin-top: 2vh;
+    backdrop-filter: blur(5px);
+    width: 10vw;
 }
 
 footer {
@@ -101,4 +116,8 @@ footer {
     padding: 1rem;
     align-items: center;
     justify-content: center;
+    border-top: 1px solid #a1a19462;
+
 }
+
+/*Media queries update soon*/
