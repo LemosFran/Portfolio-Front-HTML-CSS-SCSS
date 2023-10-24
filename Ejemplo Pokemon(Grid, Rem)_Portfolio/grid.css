@@ -19,6 +19,7 @@ body {
 }
 
 .img-container{
+    position: relative;
     grid-area: imagen-container;
     margin: 0;
     padding: 0;
@@ -120,4 +121,113 @@ footer {
 
 }
 
-/*Media queries update soon*/
+
+@media (max-width: 768px) {
+    
+    article{
+        margin-left: -1.5vh;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1150px)
+{
+    aside {
+        padding: 20px; 
+        width: 85%; 
+        align-items: center;
+        text-align: center; 
+        margin-left: -1.8vh;
+    }
+    
+
+}
+
+
+/* Buttons position */
+.button-container {
+    position: absolute;
+    display: flex;
+    bottom: 10px; /* Ajusta la posición vertical según sea necesario */
+    left: 40px;
+    right: 40px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*Google account button*/
+
+button {
+    height: 40px;
+    max-width: 300px;
+    display: flex;
+    padding: 8px 22.4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 12px;
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.button svg {
+    height: 20px;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 16px 36px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.playstore-button:hover {
+    transform: scale(1.02);
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.texts {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 16px;
+}
+
+.text-1 {
+    margin-bottom: 1.6px;
+    font-size: 8.4px;
+    line-height: 14px;
+}
+
+.text-2 {
+    font-weight: 500;
+}
+
